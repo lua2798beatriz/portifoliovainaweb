@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 `
 
-
+import banner from "../../../public/novobanner.png"
 
 export const Header = styled.header`
 width: 100%;
@@ -18,7 +18,7 @@ height:69vh;
 display:flex;
 justify-content: space-evenly;
 align-items: end;
-background-image:url("public/novobanner.png");
+background-image:url(${banner});
 background-repeat:no-repeat;
 background-size:100%;
 background-color: #AB6393;
